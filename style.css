@@ -1,1 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --header-height: 3.5rem;
+    --color-white: rgb(243, 248, 243);
+    --color-light: green;
+    --color-gray: gray;
+    --color-primary: red;
+    --color-dark: purple;
+    
+    --body-font:'Rubik', san-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.2rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .838rem;
 
+    --font-medium:400;
+    --font-semi-bold:300;
+
+    --m-0-5: .5rem;
+    --m-0-75: .75rem;
+    --m-1: 1rem;
+    --m-1-5: 1.5rem;
+    --m-2: 2rem;
+    --m-2-5: 2.5rem;
+
+    --card-padding:1.8rem,0.95rem;
+
+    --border-radius: 1.25rem;
+    --box-shadow: 0px 5px 20px 0px rbga(34,45,45,44)
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+button.
+input,textarea{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+body{
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    line-height: 1.7;
+    font-weight: var(--font-medium);
+}
+ul{
+    list-style: none;
+}
+.nav-logo{
+    height: 5px;
+    width: 5px;
+}
+h1,h2,h3{
+    font-weight: var(--font-semi-bold);
+}
+h1{
+    font-size: var(--h1-font-size);
+}
+h2{
+    font-size: var(--h2-font-size);
+}
+h3{
+    font-size: var(--h3-font-size);
+}
