@@ -1,1 +1,1 @@
-# Simple Portfolio using HTML, CSS and Javascript
+Portfolio using HTML, CSS and Javascript
